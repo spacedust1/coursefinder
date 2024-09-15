@@ -1,20 +1,31 @@
-# coursefinder Android Application (NIT3213 Final Assignment)
+<h1 align="center">
+
+coursefinder
+
+(NIT3213 Final Assignment)
+
 [![image1.jpg](https://i.postimg.cc/65NhDRZG/image1.jpg)](https://postimg.cc/8stWv7t1)
 
-## Overview
+</h1>
 
+## Overview
 CourseFinder is an Android application designed to demonstrate proficiency in API integration, user interface design, and Android development best practices. The app features three main screens: Login, Dashboard, and Details, and interacts with the `vu-nit3213-api` for user authentication and data retrieval.
 
 ## Features
 
-- **Login Screen**: 
-- Allows users to authenticate, only using their username and password. 🔐
+**Login Screen**: 
+- Allows users to authenticate, only using their username and password. 🔐  
+
 [![pic1.jpg](https://i.postimg.cc/43nMmtBx/pic1.jpg)](https://postimg.cc/R35GYWkk)
-- **Dashboard Screen**: 
+
+**Dashboard Screen**: 
 - Displays a list of entities (courses) retrieved from the API. Click functionality navigates to the Details screen.
+
 [![pic3.jpg](https://i.postimg.cc/hvnpb7bx/pic3.jpg)](https://postimg.cc/8JyRTcYP)
-- **Details Screen**: 
+
+**Details Screen**: 
 - Shows detailed information about the selected entities.
+
 [![pic2.jpg](https://i.postimg.cc/8zZ9pwdY/pic2.jpg)](https://postimg.cc/qNCjQs5c)
 
 ## API Details
@@ -58,9 +69,8 @@ CourseFinder is an Android application designed to demonstrate proficiency in AP
             "credits": 3,
             "description": "A foundational course covering basic programming concepts and problem-solving techniques."
         }, ...
-        // More objects...
-      
      }
+             /// More objects...
      ```
 ## Dependencies ✨ 
 
