@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity"
+ >
+
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbarDash"
+      android:layout_width="0dp"
+      android:layout_height="?attr/actionBarSize"
+      android:background="@color/dark_blue"
+      android:paddingStart="40dp"
+      android:paddingEnd="40dp"
+      android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+      app:title="Dashboard"
+      app:titleTextColor="@color/white"
+      tools:ignore="RtlSymmetry" />
+
+  <ImageView
+      android:id="@+id/toolbarImage"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:padding="8dp"
+      android:src="@drawable/ic_action"
+      android:layout_marginTop="4dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="@+id/toolbarDash"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0"
+      tools:ignore="ContentDescription" />
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/recyclerViewCourses"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_marginTop="8dp"
+      android:background="@color/grey"
+      android:scrollbars="vertical"
+      app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/toolbarDash" />
+
+
+  <com.google.android.material.bottomnavigation.BottomNavigationView
+      android:id="@+id/bottomNavigationView"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:background="@drawable/nav_bar_theme"
+      app:itemIconTint="@drawable/nav_label_colors"
+      app:itemTextColor="@color/white"
+      app:labelVisibilityMode="labeled"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:menu="@menu/bottom_nav_menu" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

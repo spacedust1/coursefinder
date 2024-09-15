@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">coursefinder</string>
+    <string name="login">Login</string>
+    <string name="course_name_label">Course Name: %1$s</string>
+    <string name="instructor_label">Instructor: %1$s</string>
+    <string name="course_code_label">Course Code: %1$s</string>
+    <string name="credits_label">Credits: %1$d</string>
+</resources>
