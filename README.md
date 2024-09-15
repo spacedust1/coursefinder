@@ -7,11 +7,14 @@ CourseFinder is an Android application designed to demonstrate proficiency in AP
 
 ## Features
 
-- **Login Screen**: Allows users to authenticate, only using their username and password. 🔐
+- **Login Screen**: 
+- Allows users to authenticate, only using their username and password. 🔐
 [![pic1.jpg](https://i.postimg.cc/43nMmtBx/pic1.jpg)](https://postimg.cc/R35GYWkk)
-- **Dashboard Screen**: Displays a list of entities (courses) retrieved from the API. Click functionality navigates to the Details screen.
+- **Dashboard Screen**: 
+- Displays a list of entities (courses) retrieved from the API. Click functionality navigates to the Details screen.
 [![pic3.jpg](https://i.postimg.cc/hvnpb7bx/pic3.jpg)](https://postimg.cc/8JyRTcYP)
-- **Details Screen**: Shows detailed information about the selected entities.
+- **Details Screen**: 
+- Shows detailed information about the selected entities.
 [![pic2.jpg](https://i.postimg.cc/8zZ9pwdY/pic2.jpg)](https://postimg.cc/qNCjQs5c)
 
 ## API Details
