@@ -86,7 +86,7 @@ CourseFinder is an Android application designed to demonstrate proficiency in AP
    ```
 2. Navigate to the project directory:
    ```bash
-   \coursefinder
+   coursefinder/
    ```
 3. Build and Run the application using Android Studio.
 
