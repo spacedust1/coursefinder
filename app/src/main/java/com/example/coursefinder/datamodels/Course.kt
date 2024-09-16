@@ -11,7 +11,6 @@ data class Course(
     val description: String,
     val imagePic: Int,
 
-
 ) : Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readString()!!,

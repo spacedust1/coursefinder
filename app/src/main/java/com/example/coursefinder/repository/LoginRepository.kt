@@ -17,6 +17,4 @@ class LoginRepository @Inject constructor(private val apiService: ApiService) {
             }
         } catch (e: Exception) {
             Result.failure(e)
-        }
-    }
-}
+        } } }

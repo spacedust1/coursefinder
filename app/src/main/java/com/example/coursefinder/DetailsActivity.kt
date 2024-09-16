@@ -54,9 +54,7 @@ class DetailsActivity : AppCompatActivity() {
                     startActivity(intent)
                     true
                 }
-                else -> false
-            }
-        }
+                else -> false } }
 
         // Set Toolbar
         val toolbar: Toolbar = findViewById(R.id.toolbar)

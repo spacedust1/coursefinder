@@ -54,6 +54,4 @@ class DashboardActivity : AppCompatActivity() {
                     startActivity(intent)
                     true }
                 else -> false
-            }
-
-    }}}
+            }}}}

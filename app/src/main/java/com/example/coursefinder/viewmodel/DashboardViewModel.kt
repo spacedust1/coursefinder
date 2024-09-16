@@ -30,7 +30,4 @@ class DashboardViewModel @Inject constructor(
                 } else { //
                 }
             } catch (e: Exception) { //
-            }
-        }
-    }
-}
+            } } } }

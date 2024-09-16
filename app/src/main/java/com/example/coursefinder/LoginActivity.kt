@@ -52,6 +52,5 @@ class LoginActivity : AppCompatActivity() {
         eForgotPassword.setOnClickListener {
             Toast.makeText(this, "Please contact IT support!", Toast.LENGTH_SHORT).show()
 
-        } }
-}
+        } } }
 

@@ -16,7 +16,6 @@ import com.example.coursefinder.ui.theme.imageUtil
 class CourseAdapterDetails : ListAdapter<Course, CourseAdapterDetails.CourseViewHolderDetail>(
     CourseDiffCallback()
 ) {
-
     class CourseDiffCallback : DiffUtil.ItemCallback<Course>() {
         override fun areItemsTheSame(oldItem: Course, newItem: Course): Boolean {
             return oldItem.courseCode == newItem.courseCode }
@@ -24,7 +23,6 @@ class CourseAdapterDetails : ListAdapter<Course, CourseAdapterDetails.CourseView
         override fun areContentsTheSame(oldItem: Course, newItem: Course): Boolean {
             return oldItem == newItem
         } }
-
     class CourseViewHolderDetail(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val courseName: TextView = itemView.findViewById(R.id.textViewcourseName)
         private val instructor: TextView = itemView.findViewById(R.id.textViewinstructor)

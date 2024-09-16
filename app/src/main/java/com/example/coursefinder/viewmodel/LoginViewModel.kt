@@ -39,10 +39,7 @@ class LoginViewModel @Inject constructor(private val apiService: ApiService) : V
                     _loginResult.value = Result.failure(Exception("Login failed"))
                 }
             } catch (e: Exception) {
-                _loginResult.value = Result.failure(e)
-            }
-        }
-    }
+                _loginResult.value = Result.failure(e) } } }
 
     private fun fetchCourses() {
         viewModelScope.launch {
@@ -60,7 +57,4 @@ class LoginViewModel @Inject constructor(private val apiService: ApiService) : V
                 }
             } catch (e: Exception) {
                 _coursesResult.postValue(Result.failure(e))
-            }
-        }
-    }
-}
+            } } } }

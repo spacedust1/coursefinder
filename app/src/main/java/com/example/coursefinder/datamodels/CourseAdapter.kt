@@ -32,8 +32,6 @@ class CourseAdapter : ListAdapter<Course, CourseAdapter.CourseViewHolderDashboar
         private val courseCode: TextView = itemView.findViewById(R.id.textViewcourseCode)
         private val courseImageView: ImageView = itemView.findViewById(R.id.courseImageView)
 
-
-
         fun bind(course: Course) {
             val context = itemView.context
             courseName.text = course.courseName
@@ -42,7 +40,6 @@ class CourseAdapter : ListAdapter<Course, CourseAdapter.CourseViewHolderDashboar
             credits.text = context.getString(R.string.credits_label, course.credits)
 
             courseImageView.setImageResource(imageUtil.getImageForCourse(course.courseCode))
-
 
             itemView.setOnClickListener {
                 val context = itemView.context

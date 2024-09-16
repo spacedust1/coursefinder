@@ -20,7 +20,6 @@ class DetailsViewModel @Inject constructor(
     init {
         fetchCourses()
     }
-
     private fun fetchCourses() {
         viewModelScope.launch {
             try {
@@ -30,7 +29,4 @@ class DetailsViewModel @Inject constructor(
                 } else { //
                 }
             } catch (e: Exception) { //
-            }
-        }
-    }
-}
+            } } } }
